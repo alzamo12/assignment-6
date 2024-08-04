@@ -22,7 +22,7 @@
                 <i class="fas fa-home text-lg lg:text-3xl rounded-full bg-gray-200 w-auto  lg:w-11 text-center h-auto lg:h-11"></i>
                   <i class="fas fa-home text-lg lg:text-3xl rounded-full bg-gray-200 w-auto lg:w-11 text-center  h-autolg:h-11"></i>
                   <i class="fas fa-home text-lg lg:text-3xl rounded-full bg-gray-200 w-auto lg:w-11 text-center h-auto lg:h-11"></i>
-                  <button class="lg:btn btn-primary rounded-3xl px-4 lg:px-8 bg-[#797DFC] border-0 text-white">Sign In</button>
+                  <button  class="lg:btn btn-primary rounded-3xl px-4 lg:px-8 bg-[#797DFC] border-0 text-white">Sign In</button>
                 </ul>
             </div>
           </div>
@@ -39,8 +39,8 @@
           </h1>
           <h1 class="text-white text-lg lg:text-6xl   font-bold text-left"> <span class="text-[#797DFC]">ReTro</span> Forum </h1> 
           <p class="text-white text-sm lg:text-2xl font-medium">Share your favorite opinion and win and wp <br> forum coffee mug!</p>
-          <input type="text" placeholder="Search Here Everything" class="input input-bordered  lg:w-full lg:max-w-xs rounded-3xl " />
-          <button class="lg:btn btn-primary rounded-3xl px-2 lg:px-8 lg:py-2 bg-[#797DFC] border-0 text-white">Sign In</button>
+          <input id="input-field" type="text" placeholder="Search Here Everything" class="input input-bordered  lg:w-full lg:max-w-xs rounded-3xl " />
+          <button onclick="inputField()" class="lg:btn btn-primary rounded-3xl px-2 lg:px-8 lg:py-2 bg-[#797DFC] border-0 text-white">Sign In</button>
           </div>
           <div>
             <div class="overflow-x-auto py-3 lg:py-7 px-3 lg:px-7 rounded-3xl bg-white text-black">
@@ -70,11 +70,52 @@
 
        </div>
        </section>
-      
+
+       <!-- lets discuss section -->
+      <section class="mt-28 mx-60">
+        <!-- container -->
+         <div>
+          <!-- heading -->
+            <div class="text-center space-y-8">
+              <h1 class="text-4xl font-bold text-[#12132D]">Let's Discuss</h1>
+              <p class="text-2xl font-light text-[#242427]">Yes, you can run unit tests and view the results directly within the app. The <br>
+                integrated testing features allow for a streamlined .</p>
+            </div>
+            <!-- posts -->
+            <div>
+              <!-- posts container -->
+              <div id="post-container" class="space-y-16 mt-16 ">
+                <!-- card -->
+                <div class="lg:flex lg:px-5 py-10 space-x-10 border-2 border-black bg-gray-100 rounded-3xl">
+                  <div>
+                    <img src="" class="w-20 h-20" alt="">
+                  </div>
+                  <!-- description -->
+                  <div class="">
+                    <p><span>d</span> &nbsp; <span>Author: zami </span> </p>
+                    <h3>asdsa</h3>
+                    <p>dsa</p>
+                    <hr class="">
+                    <p>
+                      <span>ds</span> &nbsp;
+                      <span>sd</span> &nbsp;
+                      <span>fd</span> &nbsp;
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- seen posts -->
+              <div>
+
+              </div>
+            </div>
+         </div>
+      </section>
 
     </main>
     <footer>
         
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
